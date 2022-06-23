@@ -10,7 +10,7 @@ let saveEl = document.getElementById("save-el");
 console.log(saveEl);
 
 function save() {
-    let countStr = count + " - "
+    let countStr = count + "  "
     console.log(count)
     saveEl.textContent += countStr
     countEl.innerText = 0
